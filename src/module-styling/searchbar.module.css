@@ -1,0 +1,15 @@
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: max-content;
+    
+}
+.searchbar {
+    align-self: center;
+    padding: 1rem;
+    margin: 0.5rem;
+    width: 100%;
+    border: 2px 2px silver;
+    border-radius: 50px;
+}
