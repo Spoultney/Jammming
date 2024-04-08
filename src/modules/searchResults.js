@@ -1,8 +1,9 @@
 import React from 'react'
 import TrackDivs from './track';
-const SearchResults = () => {
+
+const SearchResults = ({ onAddTrack }) => {
   return (
-    <TrackDivs/>
+    <TrackDivs onAddTrack={onAddTrack} />
   )
 }
 

@@ -33,6 +33,9 @@
   .playlist {
     grid-area: playlist;
     background-color: cornsilk;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
   }
 
   @media only screen and (min-width: 768px){

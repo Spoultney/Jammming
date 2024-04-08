@@ -21,21 +21,21 @@ import styles from '../module-styling/track.module.css'
   Album: "Reload",
   ID: "8rfdjs77sg182314aajdi2"
 }]
-  
-function TrackDivs() {
-  return (
 
+
+  
+function TrackDivs({ onAddTrack }) {
+  return (
     <div className={styles.trackContainer}>
       <h2>Search Results</h2>
       {tracks.map((track) => (
-        <div key={track.ID} className={styles.trackItem}>
+        <div key={track.ID} className={styles.trackItem} onClick={() => onAddTrack(track)}>
           <p>{track.TrackName}</p>
           <p>{track.Artist}</p>
           <p>{track.Album}</p>
         </div>
       ))}
     </div>
-  
   );
 }
 

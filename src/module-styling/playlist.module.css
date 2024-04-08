@@ -1,0 +1,19 @@
+.playlistContainer{
+    width: 40%;
+}
+.trackItem {
+    margin-top: 0.5rem;
+    border: 3px solid white;
+    border-radius: 15px;
+    text-align: center;
+    background-color: aliceblue;  
+}
+
+.trackItem:hover{
+    cursor: pointer;
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 10%; 
+}
